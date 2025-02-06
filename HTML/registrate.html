@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConstruYA</title>
+    <title>Registrate</title>
     <meta name="description" content="Todo es soluciones para el hogar a un solo clic">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+    <header>
+        <nav>
+            <input type="checkbox" id="toggle">            
+            <a href="../HTML/Index.html" class="logo">
+                <img src="../Imagenes/LOGO.png" alt="LOGO">
+            </a>
+            <ul class="list">     
+                <li><a href="./Index.html">Inicio</a></li>
+                <li><a href="./ingreso.html">Ingreso</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./trabaja_con_nosotros.html">Trabaja con nosotros</a></li>
+            </ul>
+            <label for="toggle" class="icon-bars">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </nav>
+    </header>
     <main>
         <div>
             <form action="" method="post">
@@ -21,10 +42,43 @@
                 <input type="button" value="terminar registro">
             </form>
         </div>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>ConstruYA</h3>
+                    <p>ConstruYA es tu solución integral para el hogar y la construcción. Nos enfocamos en ofrecer servicios confiables con un equipo profesional.</p>
+                </div>
+                <div class="footer-section links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="./Index.html">Inicio</a></li>
+                        <li><a href="./servicios.html">Servicios</a></li>
+                        <li><a href="./trabaja_con_nosotros.html">Trabaja con nosotros</a></li>
+                        <li><a href="./ingreso.html">Ingreso</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h4>Contáctanos</h4>
+                    <p><i class="bx bx-phone"></i> +57 123 456 7890</p>
+                    <p><i class="bx bx-envelope"></i> contacto@construya.com</p>
+                    <p><i class="bx bx-map"></i> Medellín, Colombia</p>
+                </div>
+                <div class="footer-section social">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ConstruYA | Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    
     </main>
-    <footer>
-        <a href="ingreso.html">Regresar</a>  
-        <p>&copy; 2024 ConstruYA</p>
-   </footer>      
+        
 </body>
 </html>

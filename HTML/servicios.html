@@ -5,54 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
     <meta name="description" content="Todo es soluciones para el hogar a un solo clic">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/servicios.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header>
+<header>
         <nav>
-            <ul>
+            <input type="checkbox" id="toggle">            
+            <a href="../HTML/Index.html" class="logo">
+                <img src="../Imagenes/LOGO.png" alt="LOGO">
+            </a>
+            <ul class="list">     
                 <li><a href="./Index.html">Inicio</a></li>
                 <li><a href="./ingreso.html">Ingreso</a></li>
                 <li><a href="./servicios.html">Servicios</a></li>
                 <li><a href="./trabaja_con_nosotros.html">Trabaja con nosotros</a></li>
             </ul>
+            <label for="toggle" class="icon-bars">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
         </nav>
-    </header>
-    <aside>
-        <h2>Servicios</h2>
-    </aside>
-    <main>
-        <h1>nuestros servicios</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>albañileria</th>
-                    <th>carpinteria</th>
-                    <th>electricidad</th>
-                    <th>fontaneria</th>
-                    <th>maestros de obra</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>  
-                    <td><img src="./Imagenes/albañileria.png" alt="albañileria" width="400"></td>
-                    <td><img src="./Imagenes/carpinteria.png" alt="carpinteria" width="400"></td>
-                    <td><img src="./Imagenes/electricista.png" alt="electricidad" width="400"></td>
-                    <td><img src="./Imagenes/fontaneria.png" alt="fontaneria" width="400"></td>
-                    <td><img src="./Imagenes/maestros.png" alt="maestros de obra" width="400"></td>
-                </tr>
-                <tr>
-                    <td><button>seleccionar</button></td>
-                    <td><button>seleccionar</button></td>
-                    <td><button>seleccionar</button></td>
-                    <td><button>seleccionar</button></td>
-                    <td><button>seleccionar</button></td>
-                </tr>
-            </tbody>
-        </table>
-    </main>
-    <footer>
-        <p>&copy; 2024 ConstruYA</p>
-    </footer>
+</header>
+<main>
+    <div class="conjunto-img">
+        <ul>
+            <li>
+               <a href="./alnaniles.html"><img src="../Imagenes/1a.jpg" alt="Construcción"></a> 
+                <span class="overlay-text">Albañileria</span>
+            </li>
+            <li>
+                <a href="./carpinteros.html"><img src="../Imagenes/1b.jpg" alt="Carpintería"></a>
+                <span class="overlay-text">Carpintería</span>
+            </li>
+            <li>
+                <a href="./fontaneros.html"><img src="../Imagenes/1c.jpg" alt="Albañilería"></a>
+                <span class="overlay-text">Fontaneria</span>
+            </li>
+            <li>
+                <a href="./electricistas.html"><img src="../Imagenes/1d.jpg" alt="Electricistas"></a>
+                <span class="overlay-text">Electricidad</span>
+            </li>
+            <li>
+                <a href="./arquitectos.html"><img src="../Imagenes/maestros.png" alt="Maestros"></a>
+                <span class="overlay-text">arquitectos</span>
+            </li>
+        </ul>
+        <div class="servi">
+            <h1>Nuestros Servicios</h1>
+        </div>
+        
+    </div>
+    
 
+</main>
 </body>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>ConstruYA</h3>
+            <p>ConstruYA es tu solución integral para el hogar y la construcción. Nos enfocamos en ofrecer servicios confiables con un equipo profesional.</p>
+        </div>
+        <div class="footer-section links">
+            <h4>Enlaces rápidos</h4>
+            <ul>
+                <li><a href="./Index.html">Inicio</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./trabaja_con_nosotros.html">Trabaja con nosotros</a></li>
+                <li><a href="./ingreso.html">Ingreso</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h4>Contáctanos</h4>
+            <p><i class="bx bx-phone"></i> +57 123 456 7890</p>
+            <p><i class="bx bx-envelope"></i> contacto@construya.com</p>
+            <p><i class="bx bx-map"></i> Medellín, Colombia</p>
+        </div>
+        <div class="footer-section social">
+            <h4>Síguenos</h4>
+            <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 ConstruYA | Todos los derechos reservados.</p>
+    </div>
+</footer>
 </html>

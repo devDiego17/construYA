@@ -1,56 +1,107 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ConstruYA</title>
+    <title>Trabaja con Nosotros</title>
     <meta name="description" content="Todo es soluciones para el hogar a un solo clic">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/trabajaConNosotros.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
     <header>
-        <h1>ConstruYA</h1>
         <nav>
-            <ul>
+            <input type="checkbox" id="toggle">            
+            <a href="../HTML/Index.html" class="logo">
+                <img src="../Imagenes/LOGO.png" alt="LOGO">
+            </a>
+            <ul class="list">     
                 <li><a href="./Index.html">Inicio</a></li>
                 <li><a href="./ingreso.html">Ingreso</a></li>
                 <li><a href="./servicios.html">Servicios</a></li>
                 <li><a href="./trabaja_con_nosotros.html">Trabaja con nosotros</a></li>
             </ul>
+            <label for="toggle" class="icon-bars">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
         </nav>
-    </header>
-        <div>
-            <h2><strong>¡Únete a nuestro equipo de expertos en soluciones para el hogar!</strong></h2>
-            <p>En ConstruYA, estamos siempre en busca de profesionales apasionados y</p>
-            <p>comprometidos en las áreas de fontanería, carpintería, albañilería, electricidad y maestros de obra. Si</p>
-            <p>tienes experiencia en alguno de estos campos y quieres formar parte de un equipo dinámico y en</p>
-            <p>crecimiento, queremos conocerte. Ofrecemos oportunidades de desarrollo profesional y un entorno</p>
-            <p>de trabajo colaborativo. Aplica ahora y contribuye a brindar un excelente servicio a nuestros clientes.</p>
-        </div>
-        <div>
-            <h2>postulate llenando el siguiente formulario</h2>
-            <form action="" method="post">
-                <input type="text" placeholder="nombre y apellido">
-                <br>
-                <input type="text"placeholder="correo electronico o numero celular">
-                <br>
-                <input type="text" placeholder="nombre de usuario">
-                <br>
-                <input type="search" placeholder="Ciudad">
-                <br>
-                <input type="text" placeholder="ocupacion">
-                <br>
-                <input type="number"  placeholder="años de experiencia" id="">
-                <br>
-                <input type="button" value="terminar registro">
-            </form>
-        </div>
+</header>
     <main>
+        <div class="container">
+            <div class="container-info">
+            <h2><strong>¡Únete a nuestro equipo de expertos en soluciones para el hogar!</strong></h2>
+            <p>En ConstruYA, estamos siempre en busca de profesionales apasionados y comprometidos en las áreas de:</p>
+            <ul>
+                <li>Fontanería.</li>
+                <li>Carpintería.</li>
+                <li>Albañilería.</li>
+                <li>Electricidad.</li>
+                <li>Arquitectos.</li>
+            </ul>
+            <p>
+                Si tienes experiencia en alguno de estos campos y quieres formar parte de un equipo dinámico 
+                y en crecimiento, queremos conocerte. Ofrecemos oportunidades de desarrollo profesional y 
+                un entorno de trabajo colaborativo.
+            </p>
+            <p>Aplica ahora y contribuye a brindar un excelente servicio a nuestros clientes.</p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="container-form">
+            <h2>Postúlate llenando el siguiente formulario</h2>
+            <form class="form">
+                <input type="text" placeholder="Nombre y apellido" required>
+                <input type="email" placeholder="Correo electrónico o número celular" required>
+                <input type="text" placeholder="Nombre de usuario" required>
+                <input type="text" placeholder="Ciudad" required>
+                <input type="text" placeholder="Ocupación" required>
+                <input type="number" placeholder="Años de experiencia" required>
+                <input type="button" value="Terminar registro">
+            </form>
+            </div>
+        </div>
        
-        <footer>
-            <p>&copy; 2024 ConstruYA</p>
-        </footer>
-
+    
     </main>
+
+    
 </body>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>ConstruYA</h3>
+            <p>ConstruYA es tu solución integral para el hogar y la construcción. Nos enfocamos en ofrecer servicios confiables con un equipo profesional.</p>
+        </div>
+        <div class="footer-section links">
+            <h4>Enlaces rápidos</h4>
+            <ul>
+                <li><a href="./Index.html">Inicio</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./trabaja_con_nosotros.html">Trabaja con nosotros</a></li>
+                <li><a href="./ingreso.html">Ingreso</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h4>Contáctanos</h4>
+            <p><i class="bx bx-phone"></i> +57 123 456 7890</p>
+            <p><i class="bx bx-envelope"></i> contacto@construya.com</p>
+            <p><i class="bx bx-map"></i> Medellín, Colombia</p>
+        </div>
+        <div class="footer-section social">
+            <h4>Síguenos</h4>
+            <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 ConstruYA | Todos los derechos reservados.</p>
+    </div>
+</footer>
 </html>

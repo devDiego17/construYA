@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+
+.wrap-cta{
+    padding: 1.5rem 0;
+}
+
+.cta-a{
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: darkorange;
+    padding: .5rem 1rem;
+    border-radius: 5%;
+}
+
+h1{
+    font-size: 2.8rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2.6rem;
+}
+/**heroo**/
+
+.hero-section{
+    height: 90vh;
+    background: url(../Imagenes/fondo-login2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+   }
+
+.wrap-hero-section{
+    max-width: 800px;
+    color: rgb(0, 0, 0);
+    padding: 5%;  
+    margin-top: 110px; 
+}
+ 
+.section-logos-section{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+
+.section{
+    margin: 5rem 0;
+
+}  
+
+.section h2{
+    padding: 2rem 0;
+}
+
+.wrap-logos-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-brand{
+    width: 220px;
+    padding: 1rem 2rem;
+    
+}
+
+ .wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ .wrap-img_two-column{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+ }
+
+ .wrap-text-column h3{
+    padding: 2rem 0;
+ }
+
+ .wrap-text-column p{
+    padding-bottom: 1rem;
+ }
+
+ .wrap-tittle-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+ }

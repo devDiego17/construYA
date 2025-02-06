@@ -5,32 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ConstruYA</title>
     <meta name="description" content="Todo es soluciones para el hogar a un solo clic">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    
     <header>
-        <h1>ConstruYA</h1>
-        <nav>
-            <ul>
-                <li><a href="./Index.html">Inicio</a></li>
-                <li><a href="./ingreso.html">Ingreso</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./trabaja_con_nosotros.html">Trabaja con nosotros</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <input type="checkbox" id="toggle">            
+                <a href="../HTML/Index.html" class="logo">
+                    <img src="../Imagenes/LOGO.png" alt="LOGO">
+                </a>
+                <ul class="list">     
+                    <li><a href="./Index.html">Inicio</a></li>
+                    <li><a href="./ingreso.html">Ingreso</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./trabaja_con_nosotros.html">Trabaja con nosotros</a></li>
+                </ul>
+                <label for="toggle" class="icon-bars">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </label>
+            </nav>
     </header>
-         <div>
-            <h2><strong>¡Soluciones rápidas y confiables para tu hogar!</strong></h2>
-            <p>Encuentra a los mejores profesionales de carpintería, fontanería, electricidad y construcción en un</p>
-            <p>solo lugar. Desde pequeñas reparaciones hasta grandes proyectos, estamos aquí para hacer tu vida</p>
-            <p>más fácil. Solicita nuestros servicios de manera rápida y sencilla, y deja que los expertos se</p>
-            <p>encarguen de todo.</p>
-        </div>
-    <main>
+    
+       <section class="hero-section">
+            <div class="wrap-hero-section">
+                <h1>Soluciones inteligentes <br> para el hogar</h1>
+                <br>
+                <p>Encuentra a los mejores profesionales de carpintería, fontanería, electricidad y construcción en un 
+                solo lugar. Desde pequeñas reparaciones hasta grandes proyectos, estamos aquí para hacer tu vida
+                más fácil. Solicita nuestros servicios de manera rápida y sencilla, y deja que los expertos se 
+                encarguen de todo.</p>
+                <div class="wrap-cta">
+                    <a href="./servicios.html" class="cta-a">servicios</a>
+                </div>
+            </div>
+       </section> 
        
-        <footer>
-            <p>&copy; 2024 ConstruYA</p>
-        </footer>
+       <section class="section-logos-section">
+            <div class=" ">
+                <img src="../Imagenes/argos-logo-BBBBA033C6-seeklogo.com.png" alt="Logo de argos" class="logo-brand">
+                <img src="../Imagenes/airbnb-logo.png" alt="Airbnb logo" class="logo-brand">
+                <img src="../Imagenes/Logo_Corona_colombia.png" alt="Logo corona" class="logo-brand">
+                <img src="../Imagenes/Sodimac_Homecenter-22222.png" alt="HomeCenter logo" class="logo-brand">
+                <img src="../Imagenes/Logo(2181).jpg" alt="Madecentro logo" class="logo-brand">
+            </div>
+       </section>
+       <section class="section two-column-section">
+        <div class="wrap-tittle-section">
+            <h2>Eres trabjador del rubro de la construccion?</h2>
+        </div>
+        <div class="wrap-two-column">
+            <div class="wrap_img_two-column">
+                <img src="../Imagenes/Sin título.png" alt="trabajador señalando">
+            </div>   
+            <div class="wrap-img_two-column">
+                <div class="wrap-text-column">
+                    <h3>Te estamos buscando</h3>
+                    <p> Siempre estamos en la búsqueda del mejor talento para formar parte de nuestros socios contructores.
+                        Si trabajas en el sector de la construcción, en cualquiera de sus especialidades, 
+                        ¡queremos conocerte! Valoramos el compromiso, la experiencia y el deseo de crecer profesionalmente.
+            
+                        Si te interesa ser parte de nuestro equipo, haz clic en el siguiente enlace y comienza tu viaje con nosotros.
+                    </p>
+                    <div class="wrap-cta"></div>
+                    <a href="./trabaja_con_nosotros.html" class="cta-a">trabaja con nosotros</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        
+       </section>
+       
+       <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>ConstruYA</h3>
+                <p>ConstruYA es tu solución integral para el hogar y la construcción. Nos enfocamos en ofrecer servicios confiables con un equipo profesional.</p>
+            </div>
+            <div class="footer-section links">
+                <h4>Enlaces rápidos</h4>
+                <ul>
+                    <li><a href="./Index.html">Inicio</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./trabaja_con_nosotros.html">Trabaja con nosotros</a></li>
+                    <li><a href="./ingreso.html">Ingreso</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h4>Contáctanos</h4>
+                <p><i class="bx bx-phone"></i> +57 123 456 7890</p>
+                <p><i class="bx bx-envelope"></i> contacto@construya.com</p>
+                <p><i class="bx bx-map"></i> Medellín, Colombia</p>
+            </div>
+            <div class="footer-section social">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ConstruYA | Todos los derechos reservados.</p>
+        </div>
+    </footer>
 
     </main>
 </body>
